@@ -15,9 +15,10 @@ a:link {
 /* title style */
 .header-title {
     font: helvetica;
-    font-size: 56px;
+    font-size: 100%;
     text-transform: uppercase;
     text-align: center;
+    padding: 10%;
 }
 /* title end */
 
@@ -28,12 +29,14 @@ a:link {
     justify-content: space-evenly;
     align-items: center;
     list-style-type: none;
+    padding: 5%;
 }
 /* navigation end */
 
 /* body style */
 body {
     color: #946b45;
+    text-align: center;
 }
 /* end body */
 
@@ -44,4 +47,18 @@ body {
     background-position: center;
 }
 /* end hero */
+
+/* work style */
+section h2 {
+    text-align: center;
+    padding: 10%;
+}
+
+.work-items{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15%;
+}
+/* work style ends */
+
 
