@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: helvetica;
+}
+
+/* title style */
+.header-title {
+    font: helvetica;
+    font-size: 56px;
+    text-transform: uppercase;
+    text-align: center;
+}
+/* title end */
+
+.navigation {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* body style */
+body {
+    color: #946b45;
+}
+/* end body */
+
+/* hero styling */
+.hero {
+    
+    background-size: cover;
+    background-position: center;
+}
+/* end hero */
+
