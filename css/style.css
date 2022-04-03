@@ -1,13 +1,14 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* body style */
 body {
     color: #453823;
+    font: garamond;
     text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color:  white, 0.1;
 }
 /* end body */
@@ -24,29 +25,64 @@ a:hover {
 }
 /* link styles end */
 
-/* title style */
-.header-title {
-    font-size: 400%;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    vertical-align: baseline;
-    background: transparent;
+/* header style */
+header {
+    padding: 80px 140px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-image: url("/Users/vanessarodriguez/Desktop/challenges/professional-portfolio/images/IMG_3477.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 9999;
+    position: -webkit-sticky;
+    position: sticky;
 }
-/* title end */
 
-/* navigation style */
-.navigation {
+header h1 {
+    font-weight: bold;
+    font-size: 54px;
+    letter-spacing: 5px;
+    background: transparent;
+    position: fixed;
+    opacity: 0.3;
+    top: 0;
+}
+
+header nav {
+    margin: 20px;
+}
+
+header nav ul  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+ }
+
+header nav ul li a {
+    padding: 10px 15px;
     text-decoration: none;
     color: #946b45;
     font-size: 24px;
+    text-align: center;
+}
+
+header nav ul li a:hover {
+    border-radius: 15px;
+}
+/* header style end */
+
+/* navigation style */
+.navigation {
+  
     list-style-type: none;  
     display: flex;
-    justify-content: space-evenly;
-    padding: 10%;
+    justify-content: space-between;
+    padding: 15%;
 }
 /* navigation end */
 
@@ -58,10 +94,9 @@ a:hover {
 
 /* work style */
 h2 {
-    text-align: center;
+    text-align: left;
     padding: 10%;
     font-size: 48px;
-    text-transform: uppercase;
     letter-spacing: 5px;
 }
 
@@ -71,24 +106,46 @@ h2 {
 /* work style ends */
 
 /* about me style */
+.about {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    flex: 1;
+    margin: 15px; 
+}
+
+.about-me {
+ 
+   
+}
+
+.about-me > * {
+   
+}
+
 .about-me-img {
-    padding: 20px;
+    margin: 20px 0;
+    line-height: 1.5;
 }
 /* about me ends */
 
 /* contact aside style */
 .contact {
     text-decoration: none;
-    padding: 10%;
-    
+    list-style-type: none;
+    padding: 5%;
 }
 /* contact style ends */
 
 
 /* footer style */
 footer {
-    padding-bottom: 10%;
-    background-color: bisque;
+    background-color: #ffcccc;
+    width: 100%;
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 footer p {

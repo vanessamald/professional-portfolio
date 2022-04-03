@@ -4,16 +4,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta charset="UTF-8" />
         <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>Professional Portfolio</title>
     </head>
     <body>
         <!-- navigation -->
-        <header>
-            <h1 class="header-title">
-                Vanessa Maldonado
+        <header id="home">
+            <h1>
+                <a href="#home">Vanessa Maldonado </a>
             </h1>
             <nav>
-                <ul class="navigation">
+                <ul>
                     <li> 
                         <a href=#work >Work</a> 
                     </li>
@@ -57,10 +58,12 @@
         <!-- work section ends-->
 
         <!--about me section-->
+        <div class="about">
         <section id="about">
             <h2>
                 About 
             </h2>
+           <div class="about-me">
             <p>
                 Hi! My name is Vanessa, a Mexican-American Front End Web Developer in training. 
                 <br/>
@@ -70,26 +73,28 @@
                 <br/>
                 I want to help users have an intuitive experience with through creative and seamless designs. 
             </p>
-            <img class="about-me-img" src="images/headshot.jpg" alt="" width="25%" height="25%">
-
+            </div>
+            <div class="about-me-img">
+            <img  src="images/headshot.jpg" alt="" width="25%" height="25%">
+            </div>
         </section>
+        </div>
         <!-- about me ends-->
 
         <!-- contact section-->
-       
         <section id="contact" >
             <h2>
                 Let's Connect 
             </h2>
            <ul class="contact">
                <li>
-                   <a href="linked in here" >My Linked In</a>
+                <i class="fa fa-chain" style="font-size:24px"></i><a href="linked in here" > My Linked In</a>
                </li>
                <li>
                    <a href="git hub here" >My Git Hub</a>
                </li>
                <li>
-                   <a href="email here" >Email Me Here</a>
+                <i class="fa fa-envelope-o" style="font-size:24px"></i><a href="email here" > vanessa.rodriguez@mavs.uta.edu</a>
                </li>
            </ul>
         </section>
