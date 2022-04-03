@@ -4,11 +4,17 @@
     box-sizing: border-box;
 }
 
+.flex-row {
+    display: inline-flex;
+    flex: wrap;
+    justify-content: flex-start;
+    
+}
+
 /* body style */
 body {
     color: #453823;
     font: garamond;
-    text-align: center;
     background-color:  white, 0.1;
 }
 /* end body */
@@ -78,7 +84,6 @@ header nav ul li a:hover {
 
 /* navigation style */
 .navigation {
-  
     list-style-type: none;  
     display: flex;
     justify-content: space-between;
@@ -101,7 +106,7 @@ h2 {
 }
 
 .work-items{
-    padding: 10%;
+    padding: 10%
 }
 /* work style ends */
 
