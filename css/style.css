@@ -2,12 +2,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font: helvetica;
-    background-color: bisque;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color:  #f2e6d9;
 }
  /* link styling */
 a:link {
-    color:#946b45;
+    color: #946b45;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
     text-decoration: none;
 }
 /* link styles end */
@@ -15,8 +20,9 @@ a:link {
 /* title style */
 .header-title {
     font: helvetica;
-    font-size: 100%;
+    font-size: 200%;
     text-transform: uppercase;
+    letter-spacing: 5px;
     text-align: center;
     padding: 10%;
 }
@@ -24,41 +30,75 @@ a:link {
 
 /* navigation style */
 .navigation {
+    text-decoration: none;
     color: #946b45;
+    font-size: 16px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    list-style-type: none;
-    padding: 5%;
+    list-style-type: none;  
+    width: 100%;
 }
 /* navigation end */
 
 /* body style */
 body {
-    color: #946b45;
+    color: #453823;
     text-align: center;
 }
 /* end body */
 
 /* hero styling */
 .hero {
-    
-    background-size: cover;
-    background-position: center;
+   
 }
 /* end hero */
 
 /* work style */
-section h2 {
+h2 {
     text-align: center;
     padding: 10%;
+    font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
 }
 
 .work-items{
     display: flex;
-    justify-content: space-evenly;
-    padding: 15%;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10%;
 }
 /* work style ends */
+
+/* about me style */
+.about-me-img {
+    padding: 20px;
+}
+/* about me ends */
+
+/* contact aside style */
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+/* contact style ends */
+
+
+/* footer style */
+footer {
+    padding-bottom: 20px;
+}
+
+/* media styles start */
+@media only screen and (max-width: 900px) {
+
+} .navigation {
+    display: flex;
+    overflow: auto;
+};
+/* media styles end */
 
 
