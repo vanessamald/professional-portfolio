@@ -6,7 +6,7 @@
 
 .flex-row {
     display: inline-flex;
-    flex: wrap;
+    flex-wrap: wrap;
     justify-content: flex-start;
     
 }
@@ -49,12 +49,14 @@ header {
 
 header h1 {
     font-weight: bold;
-    font-size: 54px;
+    font-size: 7vw;
     letter-spacing: 5px;
     background: transparent;
-    position: fixed;
     opacity: 0.3;
+    position: fixed;
     top: 0;
+    
+    
 }
 
 header nav {
@@ -100,9 +102,10 @@ header nav ul li a:hover {
 /* work style */
 h2 {
     text-align: left;
-    padding: 10%;
-    font-size: 48px;
+    padding: 5%;
+    font-size: 5vw;
     letter-spacing: 5px;
+    border-bottom: 1px solid black;
 }
 
 .work-items{
@@ -111,33 +114,36 @@ h2 {
 /* work style ends */
 
 /* about me style */
-.about {
+.about-flex {
     display: flex;
-    justify-content: space-between;
-    flex-flow: row wrap;
-    flex: 1;
-    margin: 15px; 
-}
-
-.about-me {
- 
-   
-}
-
-.about-me > * {
-   
+    flex-wrap: wrap;
 }
 
 .about-me-img {
     margin: 20px 0;
     line-height: 1.5;
+    padding: 5%;
+}
+
+.about-text {
+    text-align: left;
+    font-size: 16px;
+    font-style: oblique;
+    padding: 5%;
 }
 /* about me ends */
 
 /* contact aside style */
 .contact {
+    font-size: 3vw;
     text-decoration: none;
     list-style-type: none;
+    padding: 5%;
+    text-align: left;
+}
+
+.contact-info {
+    border-bottom: 1px solid black;
     padding: 5%;
 }
 /* contact style ends */
