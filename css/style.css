@@ -14,7 +14,6 @@
     display: inline-flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    
 }
 
 /* body style */
@@ -29,7 +28,6 @@ body {
  /* link styling */
 ul li a {
     color: var(--second-color);
-    text-decoration: none;
 }
 
 a:hover {
@@ -77,7 +75,6 @@ header nav ul  {
 
 header nav ul li a {
     padding: 10px 15px;
-    text-decoration: none;
     color: #946b45;
     font-size: 2vw;
     text-align: center;
@@ -103,7 +100,7 @@ header nav ul li a:hover {
 }
 /* end hero */
 
-/* work style */
+/* work section style */
 h2 {
     text-align: left;
     padding: var(--padding);
@@ -129,7 +126,7 @@ article img {
     border: 0.1rem solid;
     border-color: var(--main-color); 
 }
-/* work style ends */
+/* work section ends */
 
 /* about me style */
 .about-flex {
@@ -170,18 +167,18 @@ article img {
 }
 /* about me ends */
 
-/* contact aside style */
+/* contact section style */
 .contact {
     font-size: 2vw;
     text-decoration: none;
     list-style-type: none;
-    padding: 5%;
+    padding: var(--padding);
     text-align: left;
 }
 
 .contact-info {
     border-bottom: 1px solid black;
-    padding: 5%;
+    padding: var(--padding);
     
 }
 /* contact style ends */
@@ -200,6 +197,7 @@ footer {
 footer p {
     text-align: center;
 }
+/* footer style ends */
 
 /* media styles start */
 @media only screen and (max-width: 700px) {
