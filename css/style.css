@@ -38,7 +38,7 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-image: url("/Users/vanessarodriguez/Desktop/challenges/professional-portfolio/images/IMG_3477.jpg");
+    background-image: url(../images/IMG_3477.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -55,9 +55,7 @@ header h1 {
     background: transparent;
     opacity: 0.3;
     position: fixed;
-    top: 0;
-    
-    
+    top: 0;   
 }
 
 header nav {
@@ -104,20 +102,27 @@ header nav ul li a:hover {
 h2 {
     text-align: left;
     padding: 5%;
-    font-size: 5vw;
+    font-size: 4vw;
     letter-spacing: 5px;
     border-bottom: 1px solid black;
 }
 
 .work-items{
-    padding: 10%;
+    padding: 5%;
     display: inline-flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-content: center;
+
 }
 
 .work {
     padding: 5%;
+}
+
+article img {
+    border: 0.1rem solid;
+    border-color: #453823; 
 }
 /* work style ends */
 
@@ -126,6 +131,10 @@ h2 {
     display: inline-flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.about-container {
+    background-color: #f2f2f2;
 }
 
 .about-me-img {
@@ -187,7 +196,6 @@ footer p {
 }
 
 /* media styles start */
-
 @media only screen and (max-width: 700px) {
 .work-items .about-flex {
       width: 49.99999%;
