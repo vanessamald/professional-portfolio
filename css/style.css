@@ -2,11 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 :root {
     --main-color: #453823;
-    --second-color: var(--second-color);
     --padding: 5%;
 }
 
@@ -19,7 +19,7 @@
 
 /* body style */
 body {
-    color: var (--);
+    color: var(--main-color);
     font: garamond;
     background-color:  white, 0.1;
     font-size: 2vw;
@@ -34,7 +34,6 @@ ul li a {
 
 a:hover {
     color: white;
-    text-decoration: none;
 }
 /* link styles end */
 
@@ -55,7 +54,6 @@ header {
 }
 
 header h1 a, header h1 {
-    text-decoration: none; 
     font-weight: bold;
     font-size: 6vw;
     letter-spacing: 6px;
@@ -80,7 +78,7 @@ header nav ul  {
 header nav ul li a {
     padding: 10px 15px;
     text-decoration: none;
-    color: var(second-color);
+    color: #946b45;
     font-size: 2vw;
     text-align: center;
 }
@@ -108,14 +106,14 @@ header nav ul li a:hover {
 /* work style */
 h2 {
     text-align: left;
-    padding: 5%;
+    padding: var(--padding);
     font-size: 4vw;
     letter-spacing: 5px;
     border-bottom: 1px solid black;
 }
 
 .work-items{
-    padding:var(--padding);
+    padding: var(--padding);
     display: inline-flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -124,7 +122,7 @@ h2 {
 }
 
 .work {
-    padding:var(--padding);
+    padding: 5%;
 }
 
 article img {
@@ -184,7 +182,7 @@ article img {
 .contact-info {
     border-bottom: 1px solid black;
     padding: 5%;
-    text-decoration: none;
+    
 }
 /* contact style ends */
 
