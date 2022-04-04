@@ -125,10 +125,14 @@ h2 {
 .about-flex {
     display: inline-flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .about-me-img {
     padding: 5%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    position: relative;
 }
 
 .about-text {
@@ -137,6 +141,18 @@ h2 {
     font-style: oblique;
     padding: 5%;
     overflow: auto;
+}
+
+.top-img {
+    grid-column: 1 / span 8;
+    grid-row: 1;
+    padding-top: 20%;
+    z-index: 1;
+}
+
+.bottom-img {
+    grid-column: 4 / -1;
+    grid-row: 1;
 }
 /* about me ends */
 
