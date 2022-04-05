@@ -94,12 +94,6 @@ header nav ul li a:hover {
 }
 /* navigation end */
 
-/* hero styling */
-.hero {
-   
-}
-/* end hero */
-
 /* work section style */
 h2 {
     text-align: left;
@@ -115,7 +109,6 @@ h2 {
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: center;
-
 }
 
 .work {
@@ -147,7 +140,7 @@ article img {
 }
 
 .about-text {
-    text-align: left;
+    text-align: center;
     font-size: 2vw;
     font-style: oblique;
     padding: 5%;
@@ -178,11 +171,9 @@ article img {
 
 .contact-info {
     border-bottom: 1px solid black;
-    padding: var(--padding);
-    
+    padding: var(--padding);   
 }
 /* contact style ends */
-
 
 /* footer style */
 footer {
