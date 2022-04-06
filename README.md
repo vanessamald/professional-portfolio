@@ -8,3 +8,5 @@ Create a responsive professional portfolio with work samples for a future employ
 - a "contact" section 
 - navigation links that take the user to the corresponding section
 - a responsive website that adapts to the user's viewport
+
+images/portfolio_screenshot.jpg
