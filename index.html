@@ -4,6 +4,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta charset="UTF-8" />
         <link rel="stylesheet" href="css/style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>Vanessa Maldonado Front End Web Developer Professional Portfolio</title>
     </head>
@@ -16,13 +19,13 @@
             <nav>
                 <ul>
                     <li> 
-                        <a href=#work >Work</a> 
+                        <a href=#work >work</a> 
                     </li>
                     <li>
-                        <a href=#about >About</a>
+                        <a href=#about >about</a>
                     </li>
                     <li>
-                        <a href=#contact >Contact</a>
+                        <a href=#contact >contact</a>
                     </li>
                 </ul>
             </nav>
@@ -30,9 +33,9 @@
         <!-- navigation end-->
 
         <!-- work section-->
-        <section id="work">
+        <section id="work" class="swipe-container" style="transform: translate3d(0px, 0px, 0px, 0px);">
             <h2>
-                Work
+                work
             </h2>
         <div class="work-items">
         <div>
@@ -40,7 +43,9 @@
                 <p>
                     Run Buddy: HTML and CSS
                 </p>
-                <a href="https://vanessamald.github.io/run-buddy/" target="_blank"> <img src="images/run-buddy.png" alt="Run Buddy website landing page" style="max-width: 80vw; height: auto;"></a>
+                <span class="img-box">
+                <a href="https://vanessamald.github.io/run-buddy/" target="_blank"> <img src="images/run-buddy.png" alt="Run Buddy website landing page" style="max-width: 100%; height: 100%;"></a>
+                </span>
             </article>
         </div>
         <div>
@@ -48,7 +53,9 @@
                 <p>
                     Horiseon: HTML Refactor
                 </p>
-                <a href="https://vanessamald.github.io/HTML-refactor/"> <img src="images/Horiseon-html-refactor.jpg" alt="Horiseon website landing page" target="_blank" style="max-width: 50vw; height: auto;"> </a> 
+                <span class="img-box">
+                <a href="https://vanessamald.github.io/HTML-refactor/"> <img src="images/Horiseon-html-refactor.jpg" alt="Horiseon website landing page" target="_blank" style="max-width: 100%; height: 100%;"> </a> 
+                </span>
             </article>
         </div>
         <div>
@@ -56,33 +63,67 @@
                 <p>
                     Robot Gladiators: JavaScript
                 </p>
-                <a href="https://vanessamald.github.io/robot-gladiators/"> <img src="images/robotgladiators.jpg" alt="Robot Gladiators JavaScript game" target="_blank" style="max-width: 30vw; height: auto;"> </a>
+                <span class="img-box">
+                <a href="https://vanessamald.github.io/robot-gladiators/"> <img src="images/robotgladiators.jpg" alt="Robot Gladiators JavaScript game" target="_blank" style="max-width: 100%; height: 100%;"> </a>
+                </span>
             </article> 
         </div>
         <div>
-            <article>
+            <article class="work">
                 <p>
                     Hold on for Dear Life Ape: API Challenge
                 </p>
-                <a href="https://drkevinfriday.github.io/Hold-On-for-Dear-Life-Ape/"></a><img src="images/HODLA.png" alt="" style="max-width: 30vw; height: auto;">
-            </article>
+                <span class="img-box">
+                    <a href="https://drkevinfriday.github.io/Hold-On-for-Dear-Life-Ape/"></a><img src="images/HODLA.png" alt="" style="max-width: 400px; height: 300px;">
+                </span>
+                </article>
         </div>
         <div>
             <article class="work">
                 <p>
-                    Lorem ipsum dolor sit amet.
+                    Timed Quiz: API 
                 </p>
-                <img src="images/IMG_9460.JPG" alt="" style="max-width: 25vw; height: auto;">
-            </article>
+                <span class="img-box">
+                    <img src="images/timed-quiz.jpg" alt="" style="max-width: 100%; height: 100%;">
+                </span>
+                <span class="img-box">
+                    <img src="images/timed-quiz2.jpg" alt="" style="max-width: 100%; height: 100%;">
+                </span>
+                <span class="img-box">
+                    <img src="images/timed-quiz3.jpg" alt="" style="max-width: 100%; height: 100%;">
+                </span>
+                </article>
         </div>
         <div>
             <article class="work">
                 <p>
-                    Lorem ipsum dolor sit amet.
+                    Weather Dashboard: Server-side API
                 </p>
-                <img src="images/IMG_9460.JPG" alt="" style="max-width: 25vw; height: auto;">
+                <span class="img-box">
+                <img src="images/weather-dashboard.jpg" alt="" style="max-width: 100%; height: 100%;">
+            </article>
+            </span>
+        </div>
+        <div>
+            <article class="work">
+                <p>
+                    Note Taker: Express.js
+                </p>
+               <span class="img-box">
+                <iframe src="https://drive.google.com/file/d/1Hy948W6c4vy3mWM6qMM5dNcwhJlyiD7n/preview" width="640" height="480"></iframe>
+               </span>
             </article>
         </div>
+        </div>
+        <div>
+            <article class="work">
+                <p>
+                    Bookworm: Full Stack Project 
+                </p>
+                <span class="img-box">
+                    <img src="images/bookworm.jpg" alt="" style="max-width: 100%; height: 100%;">
+                </span>
+                </article>
         </div>
         </section>
         <!-- work section ends-->
@@ -90,7 +131,7 @@
         <!--about me section-->
         <section id="about" class="about-container">
             <h2>
-                About 
+                about 
             </h2>
             <div class="about-flex">
             <article>
